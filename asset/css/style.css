@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Starting Coding */
+
+.wappere{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-family: cursive;
+}
+.typing{
+    width: 11.7ch;
+    animation: typing 4s infinite ;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    
+}
+@keyframes typing {
+    from{
+        width: 0;
+    }
+}
